@@ -1,0 +1,25 @@
+{
+  "name": "astralena-ai-telegram",
+  "version": "5.0.0",
+  "description": "Astralena AI - Telegram bot (JavaScript). Space, tech and engineering AI: chat, vision, voice, websites, tools, inline, guest and secretary mode.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fflate": "^0.8.2",
+    "pdf-parse": "1.1.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5",
+    "telegraf": "^4.16.3"
+  },
+  "optionalDependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "msedge-tts": "^2.0.0"
+  },
+  "license": "MIT"
+}
